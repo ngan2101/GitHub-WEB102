@@ -1,8 +1,81 @@
-# React + Vite
+# Timetabled Exemplar Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Timetabled is a grid-style calendar with one-hour events that plans out a single week, built with React, Vite, HTML, JavaScript, and CSS. 
 
-Currently, two official plugins are available:
+:link: [Preview App Here](https://bucolic-cobbler-d5aca6.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Screenshot
+
+![screenshot of completed project](readme_screenshot.png)
+
+## Setup
+
+### Dependencies
+
+* [Vite](https://www.npmjs.com/package/vite)
+* [Vite React Plugin](https://www.npmjs.com/package/@vitejs/plugin-react)
+* [React](https://www.npmjs.com/package/react)
+* [React-DOM](https://www.npmjs.com/package/react-dom)
+
+---
+
+### Install Dependencies
+
+Before installing dependiencies, you will need `node` and `npm` installed globally on your machine by installing  [NodeJS](https://nodejs.org/en/download/) onto your machine.
+
+To install the dependencies, run:
+
+```sh
+npm install
+```
+
+Alternatively, you can install the dependencies individually:
+
+```sh
+npm install vite
+npm install @vitejs/plugin-react
+npm install react
+npm install react-dom
+```
+
+---
+
+### Run Timetabled
+
+In the repo directory, run the following in your terminal:
+
+```sh
+npm run dev
+
+```
+
+Visit the web application in the browser:
+
+```html
+http://localhost:5173/
+```
+
+<br/>
+
+---
+
+### Deploy Timetabled
+
+To deploy this application on Netlify, run the following in the repo directory:
+
+```sh
+npm install
+npm run build
+
+```
+
+Upload the generated `dist` file to Netlify at:
+
+```html
+https://app.netlify.com/drop
+```
+
+<br/>
+
+---
+*Last Updated: December 2022*
